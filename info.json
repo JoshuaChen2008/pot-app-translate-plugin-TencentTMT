@@ -1,0 +1,62 @@
+{
+  "id": "plugin.com.pot-app.tencent-tmt",
+  "plugin_type": "translate",
+  "icon": "tmt.svg",
+  "display": "Tencent TMT",
+  "homepage": "https://cloud.tencent.com/document/product/551/15619",
+  "needs": [
+    {
+      "key": "secretId",
+      "display": "SecretId",
+      "type": "input"
+    },
+    {
+      "key": "secretKey",
+      "display": "SecretKey",
+      "type": "input"
+    },
+    {
+      "key": "region",
+      "display": "Region",
+      "type": "select",
+      "options": {
+        "ap-guangzhou": "ap-guangzhou",
+        "ap-beijing": "ap-beijing",
+        "ap-shanghai": "ap-shanghai",
+        "ap-chengdu": "ap-chengdu",
+        "ap-chongqing": "ap-chongqing",
+        "ap-hongkong": "ap-hongkong",
+        "ap-singapore": "ap-singapore"
+      },
+      "default": "ap-guangzhou"
+    },
+    {
+      "key": "projectId",
+      "display": "ProjectId",
+      "type": "input",
+      "default": "0"
+    }
+  ],
+  "language": {
+    "auto": "auto",
+    "zh_cn": "zh",
+    "zh_tw": "zh-TW",
+    "en": "en",
+    "ja": "ja",
+    "ko": "ko",
+    "fr": "fr",
+    "es": "es",
+    "ru": "ru",
+    "de": "de",
+    "it": "it",
+    "tr": "tr",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "vi": "vi",
+    "id": "id",
+    "th": "th",
+    "ms": "ms",
+    "ar": "ar",
+    "hi": "hi"
+  }
+}
